@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+
+
+html {
+scroll-behavior: smooth;
+}
+
+#home {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #000;
+  color: white !important;
+}
+.navbar {
+border-bottom: 2px solid #0d6efd;
+}
+
+.navbar-brand {
+letter-spacing: 2px;
+}
+
+
+
+/* Customizing the Button to avoid the "Default Bootstrap" look */
+.btn-primary {
+background-color: #0d6efd;
+border: none;
+font-weight: 600;
+transition: transform 0.3s ease;
+}
+
+.btn-primary:hover {
+transform: translateY(-5px); /* Makes button pop up slightly on hover */
+background-color: #0056b3;
+}
+#about {
+background-color: #f8f9fa;
+}
+
+/* Custom Image Style to avoid the "Default Look" */
+#about img {
+border-left: 8px solid #0d6efd;
+transition: 0.4s ease;
+}
+
+#about img:hover {
+transform: scale(1.03); /* Makes image grow slightly when hovered */
+}
+.project-card {
+transition: transform 0.3s ease, shadow 0.3s ease;
+overflow: hidden; /* Keeps the image corners rounded */
+}
+
+.project-card:hover {
+transform: translateY(-10px); /* Lift effect */
+box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.card-img-top {
+transition: transform 0.5s ease;
+}
+
+
+.project-card:hover .card-img-top {
+transform: scale(1.1); /* Zoom the image slightly on hover */
+}
+#contact {
+scroll-margin-top: 70px;
+}
+
+
+.form-control:focus {
+border-color: #0d6efd;
+box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+
+button[type="submit"]:hover {
+transform: scale(1.05);
+transition: 0.3s;
+}
